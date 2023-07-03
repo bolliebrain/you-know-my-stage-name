@@ -7,13 +7,25 @@
 }
 
 body {
-    background-color: turquoise;
+    background-color: rgb(31, 249, 227);
     font-family: 'Yusei Magic', sans-serif;
+    text-align: center;
 }
 
-.main-page {
-    background-color: aliceblue;
+#main-page {
+    background-color: rgb(245, 254, 253, 0.5);
     height: 40rem;
     width: 40rem;
     margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50;
 }
+
+#rules {
+    border: 0.5rem;
+    height: 5rem;
+    width: auto;
+    position: absolute;
+}
+
