@@ -19,11 +19,9 @@ body {
     margin: auto;
     position: absolute;
     top: 50%;
-    left: 50;
 }
 
 #rules {
-    border: 0.5rem;
     height: 5rem;
     width: auto;
     position: absolute;
