@@ -36,10 +36,15 @@ body {
     position: absolute;
 }
 
-#play-button {
+.play-button {
     border: solid;
     padding: 1rem;
     background-color: inherit;
+    margin: 1rem;
+}
+
+#start {
+    margin: 5rem;
 }
 
 .picture-container {
@@ -52,4 +57,20 @@ body {
 .answer-container {
     border-color: black;
     background-color: rgba(245, 254, 253, 0.6);
+}
+
+#game-status {
+    text-align: center;
+}
+
+.progress, .score {
+    display: inline;
+}
+
+.progress {
+    float: left;
+}
+
+.score {
+    float: right;
 }
