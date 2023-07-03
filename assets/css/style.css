@@ -27,3 +27,7 @@ body {
     position: absolute;
 }
 
+.play-button {
+    padding-top: 3rem;
+    border-color: rgb(0, 0, 0);
+}
