@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: turquoise;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.main-page {
+    background-color: aliceblue;
+    height: 40rem;
+    width: 40rem;
+    margin: auto;
+}
