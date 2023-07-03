@@ -60,7 +60,7 @@ body {
 }
 
 #game-status {
-    text-align: center;
+    margin: 2rem;
 }
 
 .progress, .score {
