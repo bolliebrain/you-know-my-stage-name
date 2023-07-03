@@ -4,16 +4,16 @@ when user clicks button */
 
 document.addEventListener("DOMContentLoaded", function() {
 
+    //straight to welcome page with rules
+
+    let welcome = document.getElementByTagName("main-page");
+    if playGame.addEventListener("click", runQuiz);
 })
 
 /* Functions */
 
-function loadQuiz () {
-
-}
-
 function runQuiz () {
-
+    let questionSet = documentElementsByClassName("game-page")
 }
 
 function checkAnswer () {
