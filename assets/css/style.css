@@ -27,7 +27,16 @@ body {
     position: absolute;
 }
 
-.play-button {
+#play-button {
     padding-top: 3rem;
     border-color: rgb(0, 0, 0);
+}
+
+.picture-container {
+    background-color: rgb(220, 20, 60);
+    position: relative;
+    top: 30%;
+    left: 50%;
+    width: 20rem;
+    height: 20rem;
 }
