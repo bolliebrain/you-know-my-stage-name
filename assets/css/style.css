@@ -10,6 +10,7 @@ body {
     background-color: rgb(31, 249, 227);
     font-family: 'Yusei Magic', sans-serif;
     text-align: center;
+    max-height: 100rem;
 }
 
 #main-page {
