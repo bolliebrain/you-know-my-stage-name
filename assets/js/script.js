@@ -35,12 +35,13 @@ function startGame () {
     document.getElementById("final-page").style.display = "none";
 }
 
-function runQuiz() {
-    document.getElementById("Image").src = 
-}
-
-
 // function checkAnswer () }
+//function runQuiz() {
+    //document.getElementById("Image").src = 
+//}
+
+
+
 
 //     // loop for questions
 //     for (var i=0; i < quiz.length; i++){
