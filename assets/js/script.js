@@ -16,13 +16,13 @@ let correctAnswers = 0;
 Wait for DOM to finish loading before running the Quiz and
 when user clicks button */
 
-document.addEventListener("DOMContentLoaded", function("welcome-page")) {
+document.addEventListener("DOMContentLoaded", function()) {
 
     //Open to welcome page with rules and hiding others
+    let welcome. document.getElementById("welcome-page");
     document.getElementById("game-page").style.display = "none";
     document.getElementById("final-page").style.display = "none";
     
-    playGame(); 
 }
 
 /* Functions */
