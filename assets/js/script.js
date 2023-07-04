@@ -26,13 +26,13 @@ document.addEventListener("DOMContentLoaded", function() {
     
 })
 
+function playGame() {
+    document.getElementById("start").addEventListener("click", runQuiz);
+}
+
 // /* Functions */
 
-// function playGame() {
-//     begin.addEventListener("click", function(){
-//         runQuiz();
-//     });
-// }
+
 
 // function runQuiz () {
 

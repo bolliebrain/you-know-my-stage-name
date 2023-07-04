@@ -49,6 +49,10 @@ h2 {
     width: 15rem;
 }
 
+.play-button:hover {
+    background-color: pink;
+}
+
 #start {
     margin-top: 20rem;
 }
