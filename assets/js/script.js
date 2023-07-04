@@ -4,8 +4,8 @@ when user clicks button */
 
 document.addEventListener("DOMContentLoaded", function() {
 
-    //straight to welcome page with rules
-
+    //Open to welcome page with rules
+    
     let welcome = document.getElementByTagName("main-page");
     if playGame.addEventListener("click", runQuiz);
 })

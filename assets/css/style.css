@@ -55,7 +55,7 @@ body {
 }
 
 .answer-container {
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     background-color: rgba(245, 254, 253, 0.6);
 }
 
