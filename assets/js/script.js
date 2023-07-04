@@ -19,7 +19,8 @@ when user clicks button */
 document.addEventListener("DOMContentLoaded", function()) {
 
     //Open to welcome page with rules and hiding others
-    let welcome. document.getElementById("welcome-page");
+    let welcome = document.getElementById("welcome-page");
+
     document.getElementById("game-page").style.display = "none";
     document.getElementById("final-page").style.display = "none";
     
@@ -29,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function()) {
 
 function playGame() {
     begin.addEventListener("click", function(){
-        runQuiz
+        runQuiz();
     });
 }
 
