@@ -22,23 +22,21 @@ document.addEventListener("DOMContentLoaded", function() {
     let welcome = document.getElementById("welcome-page");
 
     document.getElementById("game-page").style.display = "none";
-    document.getElementById("final_page").style.display = "none";
+    document.getElementById("final-page").style.display = "none";
     
 })
 
-function playGame() {
-    document.getElementById("start").addEventListener("click", runQuiz);
-}
 
-function runQuiz() {
-    //hiding welcome and final page
-    let gamePage = document.getElementById("game-page");
+document.getElementById("start").addEventListener("click", startGame); 
+
+function startGame () {    
+    let gamePage = document.getElementById("game-page").style.display = "";
+
     document.getElementById("welcome-page").style.display = "none";
     document.getElementById("final-page").style.display = "none";
 }
-// /* Functions */
 
-
+//function runQuiz() {
 
 // function checkAnswer () }
 
