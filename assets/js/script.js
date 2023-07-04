@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function() {
     
 })
 
-
 document.getElementById("start").addEventListener("click", startGame); 
 
 function startGame () {    
@@ -36,7 +35,10 @@ function startGame () {
     document.getElementById("final-page").style.display = "none";
 }
 
-//function runQuiz() {
+function runQuiz() {
+    document.getElementById("Image").src = 
+}
+
 
 // function checkAnswer () }
 
