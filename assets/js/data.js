@@ -1,51 +1,38 @@
 const quiz = [
+
     {
         face: '',
-        question :'Elton John',
-        answers: [
-            { name: 'Gerry Savage', correct: false },
-            { name: 'Jamie Alvarez', correct: false },
-            { name: 'Reginald Dwight', correct: true},
-        ]
+        name: "Elton John",
+        options: ["Gerry Savage", "Jamie Alvarez", "Reginald Dwight"],
+        answer: "Reginald Dwight"
+
     }
 
     {
         face: '',
-        question :'Adam Ant',
-        answers: [
-            { name: 'Louie Chase', correct: false },
-            { name: 'Stuart Goddard', correct: true },
-            { name: 'Virgie Hanson', correct: false },
-        ]
+        name: "Adam Ant",
+        options: ["Louie Chase", "Stuart Goddard", "Virgie Hanson"],
+        answer: "Stuart Goddard"
     }
 
     {
         face: '',
-        question :'Calvin Harris',
-        answers: [
-            { name: 'Jeff Shields', correct: false },
-            { name: 'Adam Wiles', correct: true },
-            { name: 'Mason Reese', correct: false },
-        ]
+        name :"Calvin Harris",
+        options: ['Jeff Shields', "Adam Wiles", "Mason Reese"],
+        answer: "Adam Wiles"
     }
 
     {
         face: '',
-        question :'John Wayne',
-        answers: [
-            { name: 'Long Todd', correct: false },
-            { name: 'Alvin Byrd', correct: true },
-            { name: 'Marion Morrison', correct: true },
-        ]
+        name:"John Wayne",
+        options: ["Long Todd", "Alvin Byrd", "Marion Morrison"]
+        answer: "Marion Morrison"
     }
 
     {
         face: '',
-        question :'Sting',
-        answers: [
-            { name: 'Gordon Sumner', correct: true },
-            { name: 'Otto Marsh', correct: false },
-            { name: 'Cedric Castro', correct: false },
-        ]
+        name :'Sting',
+        options: ["Gordon Sumner", "Otto Marsh", "Cedric Castro"]
+        answer: "Gordon Sumner"
     }
 ]
