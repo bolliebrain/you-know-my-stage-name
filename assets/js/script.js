@@ -30,15 +30,17 @@ function playGame() {
     document.getElementById("start").addEventListener("click", runQuiz);
 }
 
+function runQuiz() {
+    //hiding welcome and final page
+    let gamePage = document.getElementById("game-page");
+    document.getElementById("welcome-page").style.display = "none";
+    document.getElementById("final-page").style.display = "none";
+}
 // /* Functions */
 
 
 
-// function runQuiz () {
-
-//     //hiding welcome and final page
-//     document.getElementById("welcome-page").style.display = "none";
-//     document.getElementById("final-page").style.display = "none";
+// function checkAnswer () }
 
 //     // loop for questions
 //     for (var i=0; i < quiz.length; i++){
@@ -52,10 +54,7 @@ function playGame() {
 //     }
 // }
 // alert("you got" + score + "/" + quiz.length);
-
-// function checkAnswer () {
-
-// }
+ 
 
 // function provideAnswer () {
 
