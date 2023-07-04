@@ -6,14 +6,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
     //Open to welcome page with rules
 
-    document.getElementByTagName("main-page");
-    if playGame.addEventListener("click", runQuiz);
 })
 
 /* Functions */
 
 function runQuiz () {
-    let questionSet = documentElementsByClassName("game-page")
+    for 
+
 }
 
 function checkAnswer () {
