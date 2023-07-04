@@ -16,7 +16,7 @@ let correctAnswers = 0;
 Wait for DOM to finish loading before running the Quiz and
 when user clicks button */
 
-document.addEventListener("DOMContentLoaded", (event) => {
+document.addEventListener("DOMContentLoaded", function() {
 
     //Open to welcome page with rules and hiding others
     let welcome = document.getElementById("welcome-page");
