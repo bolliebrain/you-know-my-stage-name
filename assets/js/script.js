@@ -16,63 +16,63 @@ let correctAnswers = 0;
 Wait for DOM to finish loading before running the Quiz and
 when user clicks button */
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", (event) => {
 
     //Open to welcome page with rules and hiding others
     let welcome = document.getElementById("welcome-page");
 
     document.getElementById("game-page").style.display = "none";
-    document.getElementById("final-page").style.display = "none";
+    document.getElementById("final_page").style.display = "none";
     
-}
+})
 
-/* Functions */
+// /* Functions */
 
-function playGame() {
-    begin.addEventListener("click", function(){
-        runQuiz();
-    });
-}
+// function playGame() {
+//     begin.addEventListener("click", function(){
+//         runQuiz();
+//     });
+// }
 
-function runQuiz () {
+// function runQuiz () {
 
-    //hiding welcome and final page
-    document.getElementById("welcome-page").style.display = "none";
-    document.getElementById("final-page").style.display = "none";
+//     //hiding welcome and final page
+//     document.getElementById("welcome-page").style.display = "none";
+//     document.getElementById("final-page").style.display = "none";
 
-    // loop for questions
-    for (var i=0; i < quiz.length; i++){
-        var response = window.prompt(quiz[i].prompt)
-        if(response == quiz[i].answer){
-            score++;
-            alert("Correct!");
-        } else {
-            alert("Wrong!");
-        }
-    }
-}
-alert("you got" + score + "/" + quiz.length);
+//     // loop for questions
+//     for (var i=0; i < quiz.length; i++){
+//         var response = window.prompt(quiz[i].prompt)
+//         if(response == quiz[i].answer){
+//             score++;
+//             alert("Correct!");
+//         } else {
+//             alert("Wrong!");
+//         }
+//     }
+// }
+// alert("you got" + score + "/" + quiz.length);
 
-function checkAnswer () {
+// function checkAnswer () {
 
-}
+// }
 
-function provideAnswer () {
+// function provideAnswer () {
 
-}
+// }
 
-function provideScore () {
+// function provideScore () {
 
-}
+// }
 
-function provideProgress () {
+// function provideProgress () {
 
-}
+// }
 
-function scoreReaction () {
+// function scoreReaction () {
 
-}
+// }
 
-function goHome () {
+// function goHome () {
 
-}
+// }
