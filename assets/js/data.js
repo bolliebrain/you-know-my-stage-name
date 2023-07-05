@@ -1,34 +1,53 @@
-const quiz = [
+const questions = [
 
     {
-        face: "assets/images/eltonjohn.jpg",
-        name: "Elton John",
-        options: ["Gerry Savage", "Jamie Alvarez", "Reginald Dwight"],
-        answer: "Reginald Dwight"
+        //face: "assets/images/eltonjohn.jpg",
+        question: "Elton John",
+        answers: [
+            { text: "Gerry Savage", correct: false},
+            { text: "Jamie Alvarez", correct: false},
+            { text: "Reginald Dwight", correct: true}
+        ]
 
     },
+
     {
-        face: "assets/images/adamant.jpg",
-        name: "Adam Ant",
-        options: ["Louie Chase", "Stuart Goddard", "Virgie Hanson"],
-        answer: "Stuart Goddard"
+        //face: "assets/images/adamant.jpg",
+        question: "Adam Ant",
+        answers: [
+            { text: "Louie Chase", correct: false},
+            { text: "Stuart Goddard", correct: true},
+            { text: "Virgie Hanson", correct: false}
+        ]
     },
+
     {
-        face: "assets/images/calvinharris.jpg",
-        name: "Calvin Harris",
-        options: ['Jeff Shields', "Adam Wiles", "Mason Reese"],
-        answer: "Adam Wiles"
+        //face: "assets/images/calvinharris.jpg",
+        question: "Calvin Harris",
+        answers: [
+            { text: "Jeff Shields", correct: false},
+            { text: "Adam Wiles", correct: true},
+            { text: "Mason Reese", correct: false}
+        ]
     },
+
     {
-        face: "assets/images/johnwayne.jpg",
-        name:"John Wayne",
-        options: ["Long Todd", "Alvin Byrd", "Marion Morrison"],
-        answer: "Marion Morrison"
+        //face: "assets/images/johnwayne.jpg",
+        question: "John Wayne",
+        answers: [
+            { text: "Long Todd", correct: false},
+            { text: "Alvin Byrd", correct: false},
+            { text: "Marion Morrison", correct: true}
+        ]
     },
+
     {
-        face: "assets/images/sting.jpg",
-        name: "Sting",
-        options: ["Gordon Sumner", "Otto Marsh", "Cedric Castro"],
-        answer: "Gordon Sumner"
+        //face: "assets/images/sting.jpg",
+        question: "Sting",
+        answers: [
+            { text: "Gordon Sumner", correct: true},
+            { text: "Otto Marsh", correct: false} ,
+            { text: "Cedric Castro", correct: false}
+        ]
     }
 ]
