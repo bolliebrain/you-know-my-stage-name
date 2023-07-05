@@ -1,7 +1,7 @@
 const questions = [
 
     {
-        //face: "assets/images/eltonjohn.jpg",
+        face: "assets/images/eltonjohn.jpg",
         question: "Elton John",
         answers: [
             { text: "Gerry Savage", correct: false},

@@ -54,6 +54,7 @@ function startGame(){
 
 function questionSets(){
     clearPage();
+
     //questions + index number will take you to question asked
     let currentQuestionObject = questions[currentQuestion];
     // as index starts with 0 - Question will start at 1
@@ -64,6 +65,9 @@ function questionSets(){
     //to display answers on HTML based on question number
     //this will locate the answer set
     currentQuestionObject.answers.forEach(answer => {
+    //display image from question set
+    let face = document.getElementById("person");
+    face.src = currentQuestionObject.face;
     //display the answer set in the play buttons
     const button = document.createElement("button");
     button.innerHTML = answer.text;
