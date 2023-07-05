@@ -1,6 +1,8 @@
 //Variables
 //Start quiz button
 const begin = document.getElementById("start")
+// Go home button
+//const goHome = document.getElementById("go-home");
 //Questions/stage name
 const stageName = document.getElementById("stage-name");
 //Answers to choose from
@@ -32,8 +34,6 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 
 document.getElementById("start").addEventListener("click", startGame);
-
-
 
 function startGame(){    
     let gamePage = document.getElementById("game-page").style.display = "";
@@ -72,6 +72,17 @@ function questionSets(){
     });
 
 }
+
+//(
+//document.getElementById("go-home").addEventListener("click", Home);
+//function Home(){
+//Open to welcome page with rules and hiding others
+//let welcome = document.getElementById("welcome-page");
+//document.getElementById("game-page").style.display = "none";
+//document.getElementById("final-page").style.display = "none";
+
+
+
 
 
 
