@@ -50,6 +50,12 @@ h2 {
     font-family: 'Yusei Magic', sans-serif;
 }
 
+.click-button {
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
 .click-button:hover {
     background-color: rgba(255, 255, 0, 0.865);
 }
@@ -63,11 +69,11 @@ h2 {
 }
 
 #picture-container {
-    background-color: rgb(220, 20, 60);
     width: 20rem;
     height: 20rem;
     margin: 2rem;
     margin-left: 10rem;
+    overflow: hidden;
 }
 
 #answer-container {
