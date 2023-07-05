@@ -53,7 +53,7 @@ function startGame(){
 //
 
 function questionSets(){
-
+    clearPage();
     //questions + index number will take you to question asked
     let currentQuestionObject = questions[currentQuestion];
     // as index starts with 0 - Question will start at 1
@@ -67,10 +67,17 @@ function questionSets(){
     //display the answer set in the play buttons
     const button = document.createElement("button");
     button.innerHTML = answer.text;
-    button.classList.add("btn");
+    button.classList.add("click-button");
     answerButtons.appendChild(button);
     });
 
+}
+
+function clearPage() {
+
+    while (answerButtons.firstChild) {
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
 }
 
 //(
