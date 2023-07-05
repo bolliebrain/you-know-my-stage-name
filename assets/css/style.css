@@ -41,7 +41,7 @@ h2 {
     position: absolute;
 }
 
-.play-button {
+.play-button, #start {
     border: solid;
     padding: 1rem;
     background-color: inherit;
@@ -50,7 +50,7 @@ h2 {
 }
 
 .play-button:hover {
-    background-color: pink;
+    background-color: rgba(255, 255, 0, 0.865);
 }
 
 #start {
