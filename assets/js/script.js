@@ -7,6 +7,9 @@ const stageName = document.getElementById("stage-name");
 const answerButtons = document.getElementById("answer-container");
 //Go Home Function
 const goHome = document.getElementById("go-home");
+//Variables for the question index and score
+let currentQuestion = 0;
+let correctAnswers = 0;
 
 //const stageFace = document.getElementById("picture-container");
 //const questionProgress = document.getElementById("progress");
@@ -30,9 +33,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.getElementById("start").addEventListener("click", startGame);
 
-//Variables for the question index and score
-let currentQuestion = 0;
-let correctAnswers = 0;
 
 
 function startGame(){    
@@ -55,21 +55,20 @@ function startGame(){
 function questionSets(){
 
     //questions + index number will take you to question asked
-    let currentQuestion = questions[currentQuestion];
-    // as index starts with 0 - for progress, question will start at 1
+    let currentQuestionObject = questions[currentQuestion];
+    // as index starts with 0 - Question will start at 1
     let questionProgress = currentQuestion + 1;
     // using current question and adding into HTML
-    stageName.innerHTML = questionProgress + ". " + currentQuestion.stageName;
+    stageName.innerHTML = questionProgress + ". " + currentQuestionObject.question;
 
     //to display answers on HTML based on question number
     //this will locate the answer set
-    currentQuestion.answers.forEach(answer => {
-        //display the answer set in the play buttons
-        //creating a button element to put answers into HTML
-        const button = document.createElement("button");
-        button.innerHTML = answer.text;
-        button.classList.add("btn");
-        answerButtons.appendChild(button);
+    currentQuestionObject.answers.forEach(answer => {
+    //display the answer set in the play buttons
+    const button = document.createElement("button");
+    button.innerHTML = answer.text;
+    button.classList.add("btn");
+    answerButtons.appendChild(button);
     });
 
 }
@@ -90,7 +89,10 @@ function questionSets(){
 
 
 
-//     // loop for questions
+
+ 
+
+// function provideAnswer () {
 //     for {
 //         var response = window.prompt(quiz[i].prompt)
 //         if(response == quiz[i].answer){
@@ -102,10 +104,6 @@ function questionSets(){
 //     }
 // }
 // alert("you got" + score + "/" + quiz.length);
- 
-
-// function provideAnswer () {
-
 // }
 
 // function provideScore () {
