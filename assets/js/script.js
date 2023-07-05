@@ -35,16 +35,22 @@ function startGame () {
     document.getElementById("final-page").style.display = "none";
 }
 
+
+//loop for questions
+
+//for(i = 0; i < quiz.length; i++){}
+
+
+
+//function
 // function checkAnswer () }
-//function runQuiz() {
-    //document.getElementById("Image").src = 
-//}
+
 
 
 
 
 //     // loop for questions
-//     for (var i=0; i < quiz.length; i++){
+//     for {
 //         var response = window.prompt(quiz[i].prompt)
 //         if(response == quiz[i].answer){
 //             score++;
