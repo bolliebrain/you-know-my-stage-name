@@ -10,7 +10,6 @@ const questions = [
         ]
 
     },
-
     {
         //face: "assets/images/adamant.jpg",
         question: "Adam Ant",
@@ -20,7 +19,6 @@ const questions = [
             { text: "Virgie Hanson", correct: false}
         ]
     },
-
     {
         //face: "assets/images/calvinharris.jpg",
         question: "Calvin Harris",
@@ -30,7 +28,6 @@ const questions = [
             { text: "Mason Reese", correct: false}
         ]
     },
-
     {
         //face: "assets/images/johnwayne.jpg",
         question: "John Wayne",
@@ -40,7 +37,6 @@ const questions = [
             { text: "Marion Morrison", correct: true}
         ]
     },
-
     {
         //face: "assets/images/sting.jpg",
         question: "Sting",

@@ -1,12 +1,16 @@
 //Variables
+//Start quiz button
 const begin = document.getElementById("start")
+//Questions/stage name
 const stageName = document.getElementById("stage-name");
-const stageFace = document.getElementById("picture-container");
-
+//Answers to choose from
 const answerButtons = document.getElementById("answer-container");
+//Go Home Function
+const goHome = document.getElementById("go-home");
 
-const questionProgress = document.getElementById("progress");
-const quizScore = document.getElementById("score");
+//const stageFace = document.getElementById("picture-container");
+//const questionProgress = document.getElementById("progress");
+//const quizScore = document.getElementById("score");
 
 //Storing the score
 let currentQuestion = 0;
