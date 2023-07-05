@@ -12,7 +12,7 @@ const goHome = document.getElementById("go-home");
 //const questionProgress = document.getElementById("progress");
 //const quizScore = document.getElementById("score");
 
-//Storing the score
+//Variables for the question index and score
 let currentQuestion = 0;
 let correctAnswers = 0;
 
@@ -32,13 +32,47 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.getElementById("start").addEventListener("click", startGame); 
 
-function startGame () {    
+function startGame(){    
     let gamePage = document.getElementById("game-page").style.display = "";
 
     document.getElementById("welcome-page").style.display = "none";
     document.getElementById("final-page").style.display = "none";
+    //question progress and score starts at 0
+    currentQuestion = 0;
+    correctAnswers = 0;
+    
+    questionSets();
 }
 
+// this function will pull out the question and answers in data.js,
+// display on HTML and add to current Question progress
+//
+
+function questionSets(){
+
+    //questions + index number will take you to question asked
+    let currentQuestion = questions[currentQuestion];
+    // as index starts with 0 - for progress, question will start at 1
+    let questionProgress = currentQuestion + 1;
+    // using current question and adding into HTML
+    questionElement.innerHTML = questionProgress + ". " + currentQuestion.question;
+
+    //to display answers on HTML based on question number
+    //this will locate the answer set
+    currentQuestion.answers.forEach(answer => {
+        //display the answer set in the play buttons
+        //creating a button element to put answers into HTML
+        const button = document.createElement("button");
+        button.innerHTML = answer.text;
+        button.classList.add("play-button");
+        answerButtons.appendChild(button);
+    });
+
+}
+
+startGame();
+
+//questionSets();
 
 //loop for questions
 
