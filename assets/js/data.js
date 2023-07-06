@@ -11,7 +11,7 @@ const questions = [
 
     },
     {
-        //face: "assets/images/adamant.jpg",
+        face: "assets/images/adamant.jpg",
         question: "Adam Ant",
         answers: [
             { text: "Louie Chase", correct: false},
@@ -20,7 +20,7 @@ const questions = [
         ]
     },
     {
-        //face: "assets/images/calvinharris.jpg",
+        face: "assets/images/calvinharris.jpg",
         question: "Calvin Harris",
         answers: [
             { text: "Jeff Shields", correct: false},
@@ -29,7 +29,7 @@ const questions = [
         ]
     },
     {
-        //face: "assets/images/johnwayne.jpg",
+        face: "assets/images/johnwayne.jpg",
         question: "John Wayne",
         answers: [
             { text: "Long Todd", correct: false},
@@ -38,7 +38,7 @@ const questions = [
         ]
     },
     {
-        //face: "assets/images/sting.jpg",
+        face: "assets/images/sting.jpg",
         question: "Sting",
         answers: [
             { text: "Gordon Sumner", correct: true},
