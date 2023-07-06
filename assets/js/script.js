@@ -118,10 +118,15 @@ function nextQuestion(){
 
 //function which provides the score
 function scoreReaction(){
-    clearPage();
-    stageNameElement.innerHTML = 'You scored ${score} out of ${questions.length}!';}
+    //clearPage();
 
-    
+    //Open to finalpage hiding others
+    let final = document.getElementById("final-page").style.display = "";
+
+    document.getElementById("welcome-page").style.display = "none";
+    document.getElementById("game-page").style.display = "none";
+    stageNameElement.innerHTML = 'You scored ${score} out of ${questions.length}!';
+}
 
 // remove previous answers in play-buttons
 function clearPage() {
@@ -130,7 +135,6 @@ function clearPage() {
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
-
 
 
 //(
