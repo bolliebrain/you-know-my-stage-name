@@ -102,21 +102,25 @@ function checkAnswer(check) {
         }
         button.disabled = true;
     });
+
+    nextQuestion();
+}
+
+
+function nextQuestion(){
+    currentQuestion++;
+    if(currentQuestion < questions.length){
+        questionSets();
+    }else{
+       scoreReaction();
+    };
 }
 
 function scoreReaction(){
     clearPage();
-}
+    stageNameElement.innerHTML = 'You scored ${score} out of ${questions.length}!';}
 
-nextQuestion();
-
-nextQuestion.addEventListener("click", ()=>{
-    if(currentQuestion < questions.length){
-        currentQuestion++;
-    }else{
-        scoreReaction();
-    }
-});
+    
 
 // remove previous answers in play-buttons
 function clearPage() {
@@ -143,7 +147,7 @@ function clearPage() {
 
 
 
-//function
+
 
 
 
@@ -162,9 +166,6 @@ function clearPage() {
 
 // }
 
-// function scoreReaction () {
-
-// }
 
 // function goHome () {
 
