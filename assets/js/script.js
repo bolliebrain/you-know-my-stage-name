@@ -65,25 +65,66 @@ function questionSets(){
     //to display answers on HTML based on question number
     //this will locate the answer set
     currentQuestionObject.answers.forEach(answer => {
-    //display image from question set
-    let face = document.getElementById("person");
-    face.src = currentQuestionObject.face;
-    //display the answer set in the play buttons
-    const button = document.createElement("button");
-    button.innerHTML = answer.text;
-    button.classList.add("click-button");
-    answerButtons.appendChild(button);
+        //display image from question set
+        let face = document.getElementById("person");
+        face.src = currentQuestionObject.face;
+        //display the answer set in the element play buttons
+        const button = document.createElement("button");
+        button.innerHTML = answer.text;
+        button.classList.add("click-button");
+        answerButtons.appendChild(button);
+        //if the answer is correct rule
+        if (answer.correct){
+            button.dataset.correct = answer.correct;
+        }
+        //to provide the choose answer function
+        button.addEventListener("click", checkAnswer);
     });
-
 }
 
+// function that checks answer and provides response
+// for correct and incorrect
+
+function checkAnswer(check) {
+    const chosenAnswer = check.target;
+    const rightAnswer = chosenAnswer.dataset.correct === "true";
+    if (rightAnswer) {
+        chosenAnswer.classList.add("correct");
+        correctAnswers++;
+    } else {
+        chosenAnswer.classList.add("incorrect");
+    }
+    // Disable functionality to click multiple buttons
+    // The correct answer button will change to green
+    Array.from(answerButtons.children).forEach(button => {
+        if(button.dataset.correct === "true"){
+            button.classList.add("correct");
+        }
+        button.disabled = true;
+    });
+}
+
+function scoreReaction(){
+    clearPage();
+}
+
+nextQuestion();
+
+nextQuestion.addEventListener("click", ()=>{
+    if(currentQuestion < questions.length){
+        currentQuestion++;
+    }else{
+        scoreReaction();
+    }
+});
+
+// remove previous answers in play-buttons
 function clearPage() {
 
     while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
-
 //(
 //document.getElementById("go-home").addEventListener("click", Home);
 //function Home(){
@@ -98,14 +139,11 @@ function clearPage() {
 
 
 
-//loop for questions
 
-//for(i = 0; i < quiz.length; i++){}
 
 
 
 //function
-// function checkAnswer () }
 
 
 
@@ -114,19 +152,7 @@ function clearPage() {
 
  
 
-// function provideAnswer () {
-//     for {
-//         var response = window.prompt(quiz[i].prompt)
-//         if(response == quiz[i].answer){
-//             score++;
-//             alert("Correct!");
-//         } else {
-//             alert("Wrong!");
-//         }
-//     }
-// }
-// alert("you got" + score + "/" + quiz.length);
-// }
+
 
 // function provideScore () {
 

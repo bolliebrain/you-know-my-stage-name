@@ -15,7 +15,7 @@ body {
 
 #main-page {
     background-color: rgba(245, 254, 253, 0.6);
-    height: 45rem;
+    height: 47rem;
     width: 40rem;
     margin: auto;
     position: relative;
@@ -56,10 +56,6 @@ h2 {
     margin-bottom: 1rem;
 }
 
-.click-button:hover {
-    background-color: rgba(255, 255, 0, 0.865);
-}
-
 #start {
     margin-top: 20rem;
 }
@@ -98,4 +94,12 @@ h2 {
 
 #score {
     float: right;
+}
+
+.correct {
+    background: greenyellow;
+}
+
+.incorrect {
+    background: red;
 }
