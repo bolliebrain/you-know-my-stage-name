@@ -47,6 +47,8 @@ function startGame(){
     questionSets();
 }
 
+
+
 // this function will pull out the question and answers in data.js,
 // display on HTML and add to current Question progress
 //
@@ -107,8 +109,6 @@ function checkAnswer(check) {
     nextQuestion();
 }
 
-
-
 // loop the next questions
 function nextQuestion(){
     currentQuestion++;
@@ -133,6 +133,8 @@ function scoreReaction(){
     //out of ${questions.length}!';
 }
 
+
+
 // remove previous answers in play-buttons
 function clearPage() {
 
@@ -145,8 +147,7 @@ function clearPage() {
 // }
 
 //function goHome () {}
-document.getElementById("go-home").addEventListener("click", Home);
-
+document.getElementById("go-home").addEventListener("click", welcomePage)
 
 
 //(
