@@ -22,7 +22,7 @@ let correctAnswers = 0;
 Wait for DOM to finish loading before running the Quiz and
 when user clicks button */
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function (welcomePage) {
 
     //Open to welcome page with rules and hiding others
     let welcome = document.getElementById("welcome-page");
@@ -97,6 +97,7 @@ function checkAnswer(check) {
     }
     // Disable functionality to click multiple buttons
     // The correct answer button will change to green
+
     Array.from(answerButtons.children).forEach(button => {
         if(button.dataset.correct === "true"){
             button.classList.add("correct");
@@ -104,7 +105,7 @@ function checkAnswer(check) {
         button.disabled = true;
     });
 
-    setTimeout(checkAnswer(check), 2000);
+    //setTimeout(checkAnswer(check), 2000);
 
     nextQuestion();
 }
