@@ -1,14 +1,13 @@
 //Variables
 //Start quiz button
-const begin = document.getElementById("start")
+const begin = document.getElementById("start");
 // Go home button
-//const goHome = document.getElementById("go-home");
+const goHome = document.getElementById("go-home");
 //Questions/stage name
 const stageName = document.getElementById("stage-name");
 //Answers to choose from
 const answerButtons = document.getElementById("answer-container");
-//Go Home Function
-const goHome = document.getElementById("go-home");
+
 //Variables for the question index and score
 let currentQuestion = 0;
 let correctAnswers = 0;
@@ -23,7 +22,7 @@ let correctAnswers = 0;
 Wait for DOM to finish loading before running the Quiz and
 when user clicks button */
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
 
     //Open to welcome page with rules and hiding others
     let welcome = document.getElementById("welcome-page");
@@ -103,8 +102,12 @@ function checkAnswer(check) {
         button.disabled = true;
     });
 
+    setTimeout(checkAnswer(check), 2000);
+
     nextQuestion();
 }
+
+
 
 // loop the next questions
 function nextQuestion(){
@@ -125,7 +128,9 @@ function scoreReaction(){
 
     document.getElementById("welcome-page").style.display = "none";
     document.getElementById("game-page").style.display = "none";
-    stageNameElement.innerHTML = 'You scored ${score} out of ${questions.length}!';
+
+    //stageNameElement.innerHTML = 'You scored ${correctAnswers} 
+    //out of ${questions.length}!';
 }
 
 // remove previous answers in play-buttons
@@ -136,25 +141,16 @@ function clearPage() {
     }
 }
 
+// function provideProgress () {
+// }
+
+//function goHome () {}
+document.getElementById("go-home").addEventListener("click", Home);
+
+
 
 //(
-//document.getElementById("go-home").addEventListener("click", Home);
-//function Home(){
 //Open to welcome page with rules and hiding others
 //let welcome = document.getElementById("welcome-page");
 //document.getElementById("game-page").style.display = "none";
 //document.getElementById("final-page").style.display = "none";
-
-
-
-
-// Functions left to provide
-
-// function provideProgress () {
-
-// }
-
-
-// function goHome () {
-
-// }
