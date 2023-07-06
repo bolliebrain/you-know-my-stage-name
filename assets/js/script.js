@@ -106,7 +106,7 @@ function checkAnswer(check) {
     nextQuestion();
 }
 
-
+// loop the next questions
 function nextQuestion(){
     currentQuestion++;
     if(currentQuestion < questions.length){
@@ -116,6 +116,7 @@ function nextQuestion(){
     };
 }
 
+//function which provides the score
 function scoreReaction(){
     clearPage();
     stageNameElement.innerHTML = 'You scored ${score} out of ${questions.length}!';}
@@ -129,6 +130,9 @@ function clearPage() {
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
+
+
+
 //(
 //document.getElementById("go-home").addEventListener("click", Home);
 //function Home(){
@@ -140,27 +144,7 @@ function clearPage() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-// function provideScore () {
-
-// }
+// Functions left to provide
 
 // function provideProgress () {
 
