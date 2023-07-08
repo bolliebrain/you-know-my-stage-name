@@ -7,10 +7,14 @@ const goHome = document.getElementById("go-home");
 const stageName = document.getElementById("stage-name");
 //Answers to choose from
 const answerButtons = document.getElementById("answer-container");
+//Score
+const score = document.getElementById("score");
 
 //Variables for the question index and score
 let currentQuestion = 0;
 let correctAnswers = 0;
+
+
 
 /* Two different event listeners
 Wait for DOM to finish loading before running the Quiz and
@@ -42,11 +46,14 @@ function startGame(){
     questionSets();
 }
 
-
-
 // this function will pull out the question and answers in data.js,
 // display on HTML and add to current Question progress
 //
+
+
+
+
+
 
 function questionSets(){
     clearPage();
@@ -75,8 +82,13 @@ function questionSets(){
         }
         //to provide the choose answer function
         button.addEventListener("click", checkAnswer);
+
     });
 }
+
+
+
+
 
 // function that checks answer and provides response
 // for correct and incorrect
@@ -87,6 +99,7 @@ function checkAnswer(check) {
     if (rightAnswer) {
         chosenAnswer.classList.add("correct");
         correctAnswers++;
+        score.innerHTML = correctAnswers;
     } else {
         chosenAnswer.classList.add("incorrect");
     }
@@ -98,12 +111,16 @@ function checkAnswer(check) {
             button.classList.add("correct");
         }
         button.disabled = true;
+
     });
 
+    const Timeout = setTimeout(checkAnswer, 2000);
     //setTimeout(checkAnswer(check), 2000);
 
     nextQuestion();
 }
+
+
 
 // loop the next questions
 function nextQuestion(){
@@ -114,6 +131,10 @@ function nextQuestion(){
        scoreReaction();
     };
 }
+
+//function provideProgress () {
+  //  score.innerHTML = correctAnswers;
+//}
 
 //function which provides the score
 function scoreReaction(){
@@ -139,15 +160,8 @@ function clearPage() {
     }
 }
 
-// function provideProgress () {
-// }
 
-//function goHome () {}
-;
+//function goHome () {};
 
 
-//(
-//Open to welcome page with rules and hiding others
-//let welcome = document.getElementById("welcome-page");
-//document.getElementById("game-page").style.display = "none";
-//document.getElementById("final-page").style.display = "none";
+
