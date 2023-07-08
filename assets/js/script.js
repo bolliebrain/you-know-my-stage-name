@@ -12,31 +12,26 @@ const answerButtons = document.getElementById("answer-container");
 let currentQuestion = 0;
 let correctAnswers = 0;
 
-//const stageFace = document.getElementById("picture-container");
-//const questionProgress = document.getElementById("progress");
-//const quizScore = document.getElementById("score");
-
-
-
 /* Two different event listeners
 Wait for DOM to finish loading before running the Quiz and
 when user clicks button */
 
-document.addEventListener("DOMContentLoaded", function (welcomePage) {
-
-    //Open to welcome page with rules and hiding others
-    let welcome = document.getElementById("welcome-page");
-
+document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("game-page").style.display = "none";
     document.getElementById("final-page").style.display = "none";
-     
+    document.getElementById("start").addEventListener("click", startGame);
+    document.getElementById("go-home").addEventListener("click", welcomePage);
 })
 
-document.getElementById("start").addEventListener("click", startGame);
+function welcomePage(){
+    //Open to welcome page with rules and hiding others
+    document.getElementById("welcome-page").style.display="";
+    document.getElementById("game-page").style.display="none";
+    document.getElementById("final-page").style.display="none";
+}
 
 function startGame(){    
     let gamePage = document.getElementById("game-page").style.display = "";
-
     document.getElementById("welcome-page").style.display = "none";
     document.getElementById("final-page").style.display = "none";
 
@@ -148,7 +143,7 @@ function clearPage() {
 // }
 
 //function goHome () {}
-document.getElementById("go-home").addEventListener("click", welcomePage)
+;
 
 
 //(
