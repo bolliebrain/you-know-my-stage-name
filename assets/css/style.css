@@ -72,9 +72,10 @@ h2 {
     overflow: hidden;
 }
 
-#answer-container {
-    
+#score-container, #progress-container {
+    display: inline-block;
 }
+
 
 #go-home {
     font-size: 130%;
