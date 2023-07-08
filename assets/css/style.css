@@ -41,7 +41,7 @@ h2 {
     position: absolute;
 }
 
-.click-button, #start {
+.click-button, #start, #restart {
     border: solid;
     padding: 1rem;
     background-color: rgba(245, 254, 253, 0.6);
@@ -56,13 +56,10 @@ h2 {
     margin-bottom: 1rem;
 }
 
-#start {
+#start, #restart{
     margin-top: 20rem;
 }
 
-#game-page {
-
-}
 
 #picture-container {
     width: 20rem;
@@ -74,6 +71,7 @@ h2 {
 
 #score-container, #progress-container {
     display: inline-block;
+    text-align: center;
 }
 
 
@@ -81,19 +79,15 @@ h2 {
     font-size: 130%;
 }
 
-#game-status {
-
-}
-
 #progress, #score {
     display: inline;
 }
 
-#progress {
+#progress-container {
     float: left;
 }
 
-#score {
+#score-container {
     float: right;
 }
 

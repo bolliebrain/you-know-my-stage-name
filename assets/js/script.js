@@ -9,6 +9,14 @@ const stageName = document.getElementById("stage-name");
 const answerButtons = document.getElementById("answer-container");
 //Score
 const score = document.getElementById("score");
+//Progress
+const progress = document.getElementById("progress");
+//Restart
+const restart = document.getElementById("restart");
+//Result
+const result = document.getElementById("result");
+//Response
+const response = document.getElementById("response")
 
 //Variables for the question index and score
 let currentQuestion = 0;
@@ -25,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("final-page").style.display = "none";
     document.getElementById("start").addEventListener("click", startGame);
     document.getElementById("go-home").addEventListener("click", welcomePage);
+    document.getElementById("restart").addEventListener("click", welcomePage)
 })
 
 function welcomePage(){
@@ -64,6 +73,11 @@ function questionSets(){
     let questionProgress = currentQuestion + 1;
     // using current question and adding into HTML
     stageName.innerHTML = questionProgress + ". " + currentQuestionObject.question;
+    //adding current question into HTML
+    progress.innerHTML = questionProgress;
+    //adding score into HTML
+    score.innerHTML = correctAnswers;
+    
 
     //to display answers on HTML based on question number
     //this will locate the answer set
@@ -99,7 +113,7 @@ function checkAnswer(check) {
     if (rightAnswer) {
         chosenAnswer.classList.add("correct");
         correctAnswers++;
-        score.innerHTML = correctAnswers;
+
     } else {
         chosenAnswer.classList.add("incorrect");
     }
@@ -132,13 +146,9 @@ function nextQuestion(){
     };
 }
 
-//function provideProgress () {
-  //  score.innerHTML = correctAnswers;
-//}
-
 //function which provides the score
 function scoreReaction(){
-    //clearPage();
+    clearPage();
 
     //Open to finalpage hiding others
     let final = document.getElementById("final-page").style.display = "";
@@ -146,11 +156,19 @@ function scoreReaction(){
     document.getElementById("welcome-page").style.display = "none";
     document.getElementById("game-page").style.display = "none";
 
-    //stageNameElement.innerHTML = 'You scored ${correctAnswers} 
-    //out of ${questions.length}!';
+    result.innerHTML = 'You got ${score} right';
+
+    if (correctAnswers === 25) {
+        response.innerHTML = "Wow, you really know your stuff!";
+    } else if (correctAnswers <= 15) {
+        response.innerHTML = ".... this game isnt for everyone!";
+    }else {
+        if (correctAnswers > 15 && correctAnswers < 25) {
+        response.innerHTML = "Nice work!";
+        }
+    }
+    
 }
-
-
 
 // remove previous answers in play-buttons
 function clearPage() {
@@ -161,7 +179,6 @@ function clearPage() {
 }
 
 
-//function goHome () {};
 
 
 
