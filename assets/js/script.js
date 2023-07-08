@@ -128,7 +128,7 @@ function checkAnswer(check) {
 
     });
 
-    const Timeout = setTimeout(checkAnswer, 2000);
+    //const Timeout = setTimeout(checkAnswer, 2000);
     //setTimeout(checkAnswer(check), 2000);
 
     nextQuestion();
