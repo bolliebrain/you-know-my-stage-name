@@ -128,12 +128,8 @@ function checkAnswer(check) {
 
     });
 
-    //const Timeout = setTimeout(checkAnswer, 2000);
-    //setTimeout(checkAnswer(check), 2000);
-
-    nextQuestion();
+    setTimeout(nextQuestion, 2000)
 }
-
 
 
 // loop the next questions
@@ -145,6 +141,7 @@ function nextQuestion(){
        scoreReaction();
     };
 }
+
 
 //function which provides the score
 function scoreReaction(){
