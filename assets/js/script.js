@@ -156,7 +156,7 @@ function scoreReaction(){
     document.getElementById("welcome-page").style.display = "none";
     document.getElementById("game-page").style.display = "none";
 
-    result.innerHTML = 'You got ${score} right';
+    result.innerHTML = `You got ${correctAnswers} right`;
 
     if (correctAnswers === 25) {
         response.innerHTML = "Wow, you really know your stuff!";
