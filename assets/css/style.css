@@ -76,7 +76,8 @@ h2 {
 
 
 #go-home {
-    font-size: 200%;
+    font-size: 300%;
+    background-color: transparent;
 }
 
 #progress, #score {
