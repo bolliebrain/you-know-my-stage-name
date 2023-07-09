@@ -72,7 +72,7 @@ function questionSets(){
     // as index starts with 0 - Question will start at 1
     let questionProgress = currentQuestion + 1;
     // using current question and adding into HTML
-    stageName.innerHTML = questionProgress + ". " + currentQuestionObject.question;
+    stageName.innerHTML = currentQuestionObject.question;
     //adding current question into HTML
     progress.innerHTML = questionProgress;
     //adding score into HTML
