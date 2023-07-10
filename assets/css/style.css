@@ -99,3 +99,15 @@ h2 {
 .incorrect {
     background: red;
 }
+
+@media screen and (max-width: 475px){
+    * {
+        font-size: 90%;
+    }
+
+    #main-page {
+        width: auto;
+        padding-right: 0.625rem;
+        padding left: 0.625rem;
+    }
+}
