@@ -115,11 +115,11 @@ button {
 }
 
 .correct {
-    background: greenyellow;
+    background: rgb(129, 207, 12);
 }
 
 .incorrect {
-    background: red;
+    background: rgb(238, 26, 26);
 }
 
 #result {
