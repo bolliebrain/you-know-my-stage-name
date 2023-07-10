@@ -19,7 +19,7 @@ body {
     width: 40rem;
     margin: auto;
     position: relative;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 h2 {
@@ -103,13 +103,16 @@ h2 {
 
 @media screen and (max-width: 490px){
     * {
-        
+
     }
 
     #main-page {
-        width: 30rem;
+        width: auto;
         padding-right: 0.625rem;
-        padding left: 0.625rem;
+        padding-left: 0.625rem;
+    }
 
+    #welcome-page {
+        margin: none;
     }
 }
