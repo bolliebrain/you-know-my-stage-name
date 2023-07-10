@@ -78,6 +78,7 @@ h2 {
 #go-home {
     font-size: 150%;
     background-color: transparent;
+    padding-top: 1rem;
 }
 
 #progress, #score {
@@ -100,14 +101,15 @@ h2 {
     background: red;
 }
 
-@media screen and (max-width: 475px){
+@media screen and (max-width: 490px){
     * {
-        font-size: 90%;
+        
     }
 
     #main-page {
-        width: auto;
+        width: 30rem;
         padding-right: 0.625rem;
         padding left: 0.625rem;
+
     }
 }
