@@ -15,7 +15,7 @@ body {
 
 #main-page {
     background-color: rgba(245, 254, 253, 0.6);
-    height: 46rem;
+    height: 42rem;
     width: 40rem;
     margin: auto;
     position: relative;
@@ -121,7 +121,7 @@ h2 {
         width: auto;
         padding-right: 0.625rem;
         padding-left: 0.625rem;
-        margin-top: none;
+        margin: 1rem;
     }
 
     h2 {
