@@ -15,7 +15,7 @@ body {
 
 #main-page {
     background-color: rgba(245, 254, 253, 0.6);
-    height: 47rem;
+    height: 50rem;
     width: 40rem;
     margin: auto;
     position: relative;
@@ -60,13 +60,21 @@ h2 {
     margin-top: 20rem;
 }
 
-
 #picture-container {
-    width: 20rem;
-    height: 20rem;
-    margin: 2rem;
-    margin-left: 10rem;
+    width: 15rem;
+    height: 15rem;
+    margin: auto;
     overflow: hidden;
+    position: relative;
+}
+
+#stage-name{
+    padding: 1rem;
+    font-size: large;
+}
+
+#answer-container {
+    margin: 1rem;
 }
 
 #score-container, #progress-container {
@@ -83,6 +91,10 @@ h2 {
 
 #progress, #score {
     display: inline;
+}
+
+#game-status {
+    padding: 1rem;
 }
 
 #progress-container {
@@ -102,17 +114,19 @@ h2 {
 }
 
 @media screen and (max-width: 490px){
-    * {
-
-    }
-
+ 
     #main-page {
         width: auto;
         padding-right: 0.625rem;
         padding-left: 0.625rem;
+        margin-top: none;
     }
 
     #welcome-page {
         margin: none;
+    }
+
+    h2 {
+        font-size: medium;
     }
 }
