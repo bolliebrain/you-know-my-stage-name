@@ -1,7 +1,7 @@
 const questions = [
 
     {
-        face: "assets/images/eltonjohn.jpg",
+        face: "assets/images/eltonjohn.webp",
         question: "Elton John",
         answers: [
             { text: "Gerry Savage", correct: false},
@@ -11,7 +11,7 @@ const questions = [
 
     },
     {
-        face: "assets/images/adamant.jpg",
+        face: "assets/images/adamant.webp",
         question: "Adam Ant",
         answers: [
             { text: "Louie Chase", correct: false},
@@ -20,7 +20,7 @@ const questions = [
         ]
     },
     {
-        face: "assets/images/calvinharris.jpg",
+        face: "assets/images/calvinharris.webp",
         question: "Calvin Harris",
         answers: [
             { text: "Jeff Shields", correct: false},
@@ -29,7 +29,7 @@ const questions = [
         ]
     },
     {
-        face: "assets/images/johnwayne.jpg",
+        face: "assets/images/johnwayne.webp",
         question: "John Wayne",
         answers: [
             { text: "Long Todd", correct: false},
@@ -38,7 +38,7 @@ const questions = [
         ]
     },
     {
-        face: "assets/images/sting.jpg",
+        face: "assets/images/sting.webp",
         question: "Sting",
         answers: [
             { text: "Gordon Sumner", correct: true},
@@ -47,7 +47,7 @@ const questions = [
         ]
     },
     {
-        face: "assets/images/sting.jpg",
+        face: "assets/images/davidbowie.webp",
         question: "David Bowie",
         answers: [
             { text: "David Noon", correct: false},
@@ -56,7 +56,7 @@ const questions = [
         ]
     },
     {
-        face: "assets/images/sting.jpg",
+        face: "assets/images/shaniatwain.webp",
         question: "Shania Twain",
         answers: [
             { text: "Colette Sandford", correct: false},
@@ -65,7 +65,7 @@ const questions = [
         ]
     },
     {
-        face: "assets/images/sting.jpg",
+        face: "assets/images/freddiemercury.webp",
         question: "Freddie Mercury",
         answers: [
             { text: "Jasper Salazar", correct: false},
@@ -74,7 +74,7 @@ const questions = [
         ]
     },
     {
-        face: "assets/images/sting.jpg",
+        face: "assets/images/alicecooper.webp",
         question: "Alice Cooper",
         answers: [
             { text: "Adrian Meadows", correct: false},
@@ -83,7 +83,7 @@ const questions = [
         ]
     },
     {
-        face: "assets/images/sting.jpg",
+        face: "assets/images/slash.webp",
         question: "Slash",
         answers: [
             { text: "Edmond Rice", correct: false},
@@ -92,7 +92,7 @@ const questions = [
         ]
     },
     {
-        face: "assets/images/sting.jpg",
+        face: "assets/images/katyperry.webp",
         question: "Katy Perry",
         answers: [
             { text: "Tricia Leon", correct: false},
@@ -101,4 +101,3 @@ const questions = [
         ]
     }
 ]
-
