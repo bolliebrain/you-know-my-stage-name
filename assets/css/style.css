@@ -43,6 +43,7 @@ h2 {
 
 .click-button, #start, #restart {
     border: solid;
+    border-color: black;
     padding: 0.5rem;
     background-color: rgba(245, 254, 253, 0.6);
     margin: 1rem;
@@ -58,7 +59,7 @@ h2 {
     font-size: large;
 }
 
-#start, #restart{
+#start {
     margin-top: 20rem;
 }
 
@@ -113,6 +114,18 @@ h2 {
 
 .incorrect {
     background: red;
+}
+
+#result {
+    margin-top: 3rem;
+}
+
+#response {
+    margin-top: 2rem;
+}
+
+#restart {
+    margin-top: 7rem;
 }
 
 @media screen and (max-width: 490px){
