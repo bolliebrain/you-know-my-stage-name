@@ -22,8 +22,6 @@ const response = document.getElementById("response")
 let currentQuestion = 0;
 let correctAnswers = 0;
 
-
-
 /* Two different event listeners
 Wait for DOM to finish loading before running the Quiz and
 when user clicks button */
@@ -47,26 +45,16 @@ function startGame(){
     let gamePage = document.getElementById("game-page").style.display = "";
     document.getElementById("welcome-page").style.display = "none";
     document.getElementById("final-page").style.display = "none";
-
     //question progress and score starts at 0
     currentQuestion = 0;
     correctAnswers = 0;
-    
     questionSets();
 }
 
 // this function will pull out the question and answers in data.js,
 // display on HTML and add to current Question progress
-//
-
-
-
-
-
-
 function questionSets(){
     clearPage();
-
     //questions + index number will take you to question asked
     let currentQuestionObject = questions[currentQuestion];
     // as index starts with 0 - Question will start at 1
@@ -77,8 +65,6 @@ function questionSets(){
     progress.innerHTML = `Question ${questionProgress} of ${questions.length}`;
     //adding score into HTML
     score.innerHTML = correctAnswers;
-    
-
     //to display answers on HTML based on question number
     //this will locate the answer set
     currentQuestionObject.answers.forEach(answer => {
@@ -96,43 +82,32 @@ function questionSets(){
         }
         //to provide the choose answer function
         button.addEventListener("click", checkAnswer);
-
     });
 }
 
-
-
-
-
 // function that checks answer and provides response
 // for correct and incorrect
-
 function checkAnswer(check) {
     const chosenAnswer = check.target;
     const rightAnswer = chosenAnswer.dataset.correct === "true";
     if (rightAnswer) {
         chosenAnswer.classList.add("correct");
         correctAnswers++;
-
     } else {
         chosenAnswer.classList.add("incorrect");
     }
     // Disable functionality to click multiple buttons
     // The correct answer button will change to green
-
     Array.from(answerButtons.children).forEach(button => {
         if(button.dataset.correct === "true"){
             button.classList.add("correct");
         }
         button.disabled = true;
-
     });
-
     setTimeout(nextQuestion, 2000)
 }
 
-
-// loop the next questions
+// function to loop the next questions
 function nextQuestion(){
     currentQuestion++;
     if(currentQuestion < questions.length){
@@ -142,29 +117,23 @@ function nextQuestion(){
     };
 }
 
-
 //function which provides the score
 function scoreReaction(){
     clearPage();
-
     //Open to finalpage hiding others
     let final = document.getElementById("final-page").style.display = "";
-
     document.getElementById("welcome-page").style.display = "none";
     document.getElementById("game-page").style.display = "none";
-
     result.innerHTML = `You got ${correctAnswers} right`;
-
-    if (correctAnswers === 25) {
+    if (correctAnswers === 11) {
         response.innerHTML = "Wow, you really know your stuff!";
-    } else if (correctAnswers <= 15) {
+    } else if (correctAnswers <= 5) {
         response.innerHTML = ".... this game isnt for everyone!";
     }else {
-        if (correctAnswers > 15 && correctAnswers < 25) {
+        if (correctAnswers > 6 && correctAnswers < 11) {
         response.innerHTML = "Nice work!";
         }
     }
-    
 }
 
 // remove previous answers in play-buttons
@@ -174,8 +143,3 @@ function clearPage() {
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
-
-
-
-
-

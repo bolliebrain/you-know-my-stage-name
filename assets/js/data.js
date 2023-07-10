@@ -42,8 +42,62 @@ const questions = [
         question: "Sting",
         answers: [
             { text: "Gordon Sumner", correct: true},
-            { text: "Otto Marsh", correct: false} ,
+            { text: "Otto Marsh", correct: false},
             { text: "Cedric Castro", correct: false}
+        ]
+    }
+    {
+        face: "assets/images/sting.jpg",
+        question: "David Bowie",
+        answers: [
+            { text: "David Noon", correct: false},
+            { text: "David Tyler", correct: false},
+            { text: "David Jones", correct: true}
+        ]
+    }
+    {
+        face: "assets/images/sting.jpg",
+        question: "Shania Twain",
+        answers: [
+            { text: "Colette Sandford", correct: false},
+            { text: "Eileen Edwards", correct: true},
+            { text: "Gabrielle Lyons", correct: false}
+        ]
+    }
+    {
+        face: "assets/images/sting.jpg",
+        question: "Freddie Mercury",
+        answers: [
+            { text: "Jasper Salazar", correct: true},
+            { text: "Zane Barajas", correct: false},
+            { text: "Farrokh Bulsara", correct: false}
+        ]
+    }
+    {
+        face: "assets/images/sting.jpg",
+        question: "Alice Cooper",
+        answers: [
+            { text: "Adrian Meadows", correct: false},
+            { text: "Rocco Cabrera", correct: false},
+            { text: "Vincent Furnier", correct: true}
+        ]
+    }
+    {
+        face: "assets/images/sting.jpg",
+        question: "Slash",
+        answers: [
+            { text: "Edmond Rice", correct: false},
+            { text: "Saul Hudson", correct: true},
+            { text: "Ivan Goodman", correct: false}
+        ]
+    }
+    {
+        face: "assets/images/sting.jpg",
+        question: "Katy Perry",
+        answers: [
+            { text: "Tricia Leon", correct: false},
+            { text: "Roseann Goodwin", correct: false},
+            { text: "Katheryn Hudson", correct: true}
         ]
     }
 ]
