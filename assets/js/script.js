@@ -110,6 +110,8 @@ function checkAnswer(check) {
 // function to loop the next questions
 function nextQuestion(){
     currentQuestion++;
+    //if current question number is more than 11, user will be taken
+    //to the final page scoreReaction
     if(currentQuestion < questions.length){
         questionSets();
     }else{
@@ -125,6 +127,7 @@ function scoreReaction(){
     document.getElementById("welcome-page").style.display = "none";
     document.getElementById("game-page").style.display = "none";
     result.innerHTML = `You got ${correctAnswers} right`;
+    //Number of correct answers will determine which response the page displays
     if (correctAnswers === 11) {
         response.innerHTML = "Wow, you really know your stuff!";
     } else if (correctAnswers <= 5) {
