@@ -74,7 +74,7 @@ function questionSets(){
     // using current question and adding into HTML
     stageName.innerHTML = currentQuestionObject.question;
     //adding current question into HTML
-    progress.innerHTML = questionProgress;
+    progress.innerHTML = `Question ${questionProgress} of ${questions.length}`;
     //adding score into HTML
     score.innerHTML = correctAnswers;
     
