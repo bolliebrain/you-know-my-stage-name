@@ -83,14 +83,13 @@ button {
 }
 
 #answer-container {
-    margin: 1rem;
+    margin-top: 1rem;
 }
 
 #score-container, #progress-container {
     display: inline-block;
     text-align: center;
 }
-
 
 #go-home {
     font-size: 150%;
