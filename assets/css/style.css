@@ -15,7 +15,7 @@ body {
 
 #main-page {
     background-color: rgba(245, 254, 253, 0.6);
-    height: 50rem;
+    height: 46rem;
     width: 40rem;
     margin: auto;
     position: relative;
@@ -30,7 +30,7 @@ h2 {
     margin-top: 5rem;
     position: relative;
     height: 25rem;
-    width: 25rem;
+    width: auto;
     margin: auto;
 }
 
@@ -122,11 +122,12 @@ h2 {
         margin-top: none;
     }
 
-    #welcome-page {
-        margin: none;
-    }
-
     h2 {
         font-size: medium;
+        margin-top: 1rem;
+    }
+    
+    #game-status {
+        padding: 0;
     }
 }
