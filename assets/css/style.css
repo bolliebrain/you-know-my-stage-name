@@ -43,17 +43,19 @@ h2 {
 
 .click-button, #start, #restart {
     border: solid;
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: rgba(245, 254, 253, 0.6);
     margin: 1rem;
     width: 15rem;
     font-family: 'Yusei Magic', sans-serif;
+    text-decoration: none;
 }
 
 .click-button {
     display: block;
     margin: auto;
     margin-bottom: 1rem;
+    font-size: large;
 }
 
 #start, #restart{
@@ -126,7 +128,7 @@ h2 {
         font-size: medium;
         margin-top: 1rem;
     }
-    
+
     #game-status {
         padding: 0;
     }
