@@ -68,9 +68,9 @@ const questions = [
         face: "assets/images/sting.jpg",
         question: "Freddie Mercury",
         answers: [
-            { text: "Jasper Salazar", correct: true},
+            { text: "Jasper Salazar", correct: false},
             { text: "Zane Barajas", correct: false},
-            { text: "Farrokh Bulsara", correct: false}
+            { text: "Farrokh Bulsara", correct: true}
         ]
     },
     {
