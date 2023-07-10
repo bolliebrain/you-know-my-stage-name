@@ -45,7 +45,7 @@ const questions = [
             { text: "Otto Marsh", correct: false},
             { text: "Cedric Castro", correct: false}
         ]
-    }
+    },
     {
         face: "assets/images/sting.jpg",
         question: "David Bowie",
@@ -54,7 +54,7 @@ const questions = [
             { text: "David Tyler", correct: false},
             { text: "David Jones", correct: true}
         ]
-    }
+    },
     {
         face: "assets/images/sting.jpg",
         question: "Shania Twain",
@@ -63,7 +63,7 @@ const questions = [
             { text: "Eileen Edwards", correct: true},
             { text: "Gabrielle Lyons", correct: false}
         ]
-    }
+    },
     {
         face: "assets/images/sting.jpg",
         question: "Freddie Mercury",
@@ -72,7 +72,7 @@ const questions = [
             { text: "Zane Barajas", correct: false},
             { text: "Farrokh Bulsara", correct: false}
         ]
-    }
+    },
     {
         face: "assets/images/sting.jpg",
         question: "Alice Cooper",
@@ -81,7 +81,7 @@ const questions = [
             { text: "Rocco Cabrera", correct: false},
             { text: "Vincent Furnier", correct: true}
         ]
-    }
+    },
     {
         face: "assets/images/sting.jpg",
         question: "Slash",
@@ -90,7 +90,7 @@ const questions = [
             { text: "Saul Hudson", correct: true},
             { text: "Ivan Goodman", correct: false}
         ]
-    }
+    },
     {
         face: "assets/images/sting.jpg",
         question: "Katy Perry",
