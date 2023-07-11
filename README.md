@@ -1,6 +1,6 @@
 # You know my stage name Quiz!
 
-Here is the link to [You know my stage name Quiz](https://https://bolliebrain.github.io/you-know-my-stage-name/)
+Here is the link to [You know my stage name Quiz](https://bolliebrain.github.io/you-know-my-stage-name/)
 
 You know my stage name is an online Quiz. The user is asked to guess which answer is correct from a choice of three answers. There are 11 Questions to go through. Once the user selects an answer by clicking the relevant button, the game gives the feedback as to whether it was correct or not (green if correct and red if incorrect) and it also displays the correct answer. There is a progress status underneath the answers as well how they are doing in terms of questions answered correct. At the end of the quiz the user is brought to an end of quiz screen to see their score and feedback. From this point they can choose to start the game again. 
 
@@ -121,15 +121,13 @@ U07. Navigate easily between game screens, including quitting and returning to t
 - result for index.html
 ![HTML Validation](documentation/validation/html-validation-index.png)
 
-Full Validation results are available on github here: 
-- HTML Result
-![HTML doc](documentation/validation/html-validation-doc.pdf)
+Full Validation results are available on github
 
 - [CSS Validator](https://jigsaw.w3.org/css-validator)
 ![CSS Validation](documentation/validation/css-validator-stylesheet.png)
 
-Full Validation results are available on github here:
-![CSS doc](documentation/validation/css-validation-doc.pdf)
+Full Validation results are available on github
+
 - The warnings are due to 1)import of the Google fonts
 
 - [JavaScript Validator](https://jshint.com/)
@@ -149,6 +147,10 @@ The reason for the unused variable "questions" message is that that data.js file
 - Edge Version 114.0.1823.67 (Offical Build) (64-bit)
 
 ### Test Cases and Results
+
+- The below table details the test cases that were used, the results and a cross reference to the feature that each test exercised
+
+
 
 ### Known Bugs
 
