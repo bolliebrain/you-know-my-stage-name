@@ -19,7 +19,7 @@ Potential future features could be to have a random selection of questions coded
 
 ## **User Experience (UX)**
 
-- User Stories - as a user I want to be able to :
+- ### User Stories - as a user I want to be able to :
 1. Easily determine the purpose of the website.
 2. Play a round of 11 questions.
 3. Easily tell which question is being asked.
@@ -31,6 +31,48 @@ Potential future features could be to have a random selection of questions coded
 ## **Features**
 
 ### **Existing Features**
+
+### 01. Welcome Page
+- When the page is first loaded, the title, rules and purpose of the website is clearly introduced to the user.
+- The user is then asked to move to the next page in order to play the quiz by pressing the "play" button.
+
+![Welcome Page](documentation/feature-images/02-welcomepage.png)
+
+### 02. Navigation between screens
+- The game is comprised of three pages :
+1. Welcome page
+2. Play game page
+3. Final page
+
+- The Navigation through the pages will happen by interacting with the game buttons to play the game.
+- There is also a home button at the top of each page to help the user navigate back to the start.
+
+![Home Button](documentation/feature-images/03-homebutton.png)
+
+### 03. Game Page
+- Once the user has pressed play, they are taken to the game page and the quiz begins. There are a number of features on this screen, details of each feature is below.
+1. The user is presented with a question/ stage name.
+2. The user enters their answer by click one of the three possible answers
+3. The game gives the user feedback on whether or not the correct answer was entered - the background of the box changes to red (incorrect) or green (correct). The number of correct answers is updated as appropriate and displayed on the bottom right of the screen. 
+4. There progress of questions completed is also displayed on the bottom left of the screen to allow the user to see how much is left to do.
+5. There is a 2 second time delay on the current answer check to allow the user to see whether they got the answer right or wrong (and if wrong, they are able to see what the correct answer was in green).
+
+![Game Page](documentation/feature-images/04-gamepage.png)
+
+### 04. Final page
+- Once the user has completed all 11 questions, they will automatically be taken to the Final Page where they will be presented with their final score and a reaction/message associated with how many correct answers they entered.
+1. ".... this game isnt for everyone!"
+2. " Wow, you really know your stuff!"
+3. "Nice work!"
+
+![Reaction A](documentation/feature-images/05-reaction-a.png)
+![Reaction B](documentation/feature-images/06-reaction-b.png)
+![Reaction C](documentation/feature-images/07.-reaction-c.png)
+
+### How these features support the User Stories
+- The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered 1-7. The existing features are listed above F01 to F04. Below is a traceability matrix cross referencing the user stories with the features, illustrating which features support which stories :
+
+
 
 ## **Design**
 
