@@ -1,3 +1,5 @@
+/*jshint esversion: 6*/
+
 const questions = [
     {
         face: "assets/images/eltonjohn.webp",

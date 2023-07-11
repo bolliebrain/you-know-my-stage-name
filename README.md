@@ -130,6 +130,7 @@ Full Validation results are available on github here:
 
 Full Validation results are available on github here:
 ![CSS doc](documentation/validation/css-validation-doc.pdf)
+- The warnings are due to 1)import of the Google fonts
 
 - [JavaScript Validator](https://jshint.com/)
 -
