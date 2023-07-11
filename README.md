@@ -20,13 +20,13 @@ Potential future features could be to have a random selection of questions coded
 ## **User Experience (UX)**
 
 - User Stories - as a user I want to be able to :
-1.
-2.
-3.
-4.
-5.
-6.
-7.
+1. Easily determine the purpose of the website.
+2. Play a round of 11 questions.
+3. Easily tell which question is being asked.
+4. See a running total of correct answers.
+5. Get feedback on whether or not the correct answer has been entered.
+6. At the end of the quiz, get feedback on overall score for the quiz.
+7. Navigate easily between game screens, including quitting and returning to the start.
 
 ## **Features**
 
