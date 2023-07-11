@@ -127,10 +127,11 @@ button {
 
 #response {
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 #restart {
-    margin-top: 7rem;
+    margin-top: auto;
 }
 
 @media screen and (max-width: 490px){
