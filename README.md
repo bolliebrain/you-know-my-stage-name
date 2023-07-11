@@ -119,12 +119,14 @@ You know my stage name is an online Quiz. The user is asked to guess which answe
 - [HTML Validator](https://validator.w3.org)
 
 - result for index.html
-![HTML Validation](documentation/validation/html-validation-index.png)
+- ![HTML Validation](documentation/validation/html-validation-index.png)
 
 Full Validation results are available on github
 
 - [CSS Validator](https://jigsaw.w3.org/css-validator)
-![CSS Validation](documentation/validation/css-validator-stylesheet.png)
+
+- result for styles.css
+- ![CSS Validation](documentation/validation/css-validator-stylesheet.png)
 
 Full Validation results are available on github
 
