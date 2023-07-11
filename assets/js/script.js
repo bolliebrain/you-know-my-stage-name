@@ -1,3 +1,5 @@
+/*jshint esversion: 6*/
+
 //Variables
 //Start quiz button
 const begin = document.getElementById("start");

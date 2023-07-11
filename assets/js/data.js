@@ -1,5 +1,4 @@
 const questions = [
-
     {
         face: "assets/images/eltonjohn.webp",
         question: "Elton John",
