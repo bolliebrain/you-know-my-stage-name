@@ -90,7 +90,7 @@ The live link can be found here - [You know my stage name](https://bolliebrain.g
 - Changes made to the local clone can be pushed back to the repository using the following commans
 
 - git add *filenames* (or "." to add all changed files)
-- git commit -m *"text message describing chnages"*
+- git commit -m *"text message describing changes"*
 - git push
 
 . N.B. Any changes pushed to the master branch will take effect on the live project
