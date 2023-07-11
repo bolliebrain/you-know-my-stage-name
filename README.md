@@ -6,7 +6,7 @@ You know my stage name is an online Quiz. The user is asked to guess which answe
 
 Potential future features could be to have a random selection of questions coded in the background based on a level of difficulty at the users choice.
 
-//Add Mockup picture
+![Mockup](documentation/feature-images/01.%20Mockup.png)
 
 ## **Index - Table of Contents**
 - [User Experience (UX)](#user-experience-ux)
