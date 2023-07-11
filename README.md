@@ -6,7 +6,7 @@ You know my stage name is an online Quiz. The user is asked to guess which answe
 
 Potential future features could be to have a random selection of questions coded in the background based on a level of difficulty at the users choice.
 
-![Mockup](documentation/feature-images/01.%20Mockup.png)
+![Mockup](documentation/feature-images/01-mockup.png)
 
 ## **Index - Table of Contents**
 - [User Experience (UX)](#user-experience-ux)
@@ -20,13 +20,13 @@ Potential future features could be to have a random selection of questions coded
 ## **User Experience (UX)**
 
 - ### User Stories - as a user I want to be able to :
-1. Easily determine the purpose of the website.
-2. Play a round of 11 questions.
-3. Easily tell which question is being asked.
-4. See a running total of correct answers.
-5. Get feedback on whether or not the correct answer has been entered.
-6. At the end of the quiz, get feedback on overall score for the quiz.
-7. Navigate easily between game screens, including quitting and returning to the start.
+U01. Easily determine the purpose of the website.
+U02. Play a round of 11 questions.
+U03. Easily tell which question is being asked.
+U04. See a running total of correct answers.
+U05. Get feedback on whether or not the correct answer has been entered.
+U06. At the end of the quiz, get feedback on overall score for the quiz.
+U07. Navigate easily between game screens, including quitting and returning to the start.
 
 ## **Features**
 
@@ -70,9 +70,8 @@ Potential future features could be to have a random selection of questions coded
 ![Reaction C](documentation/feature-images/07.-reaction-c.png)
 
 ### How these features support the User Stories
-- The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered 1-7. The existing features are listed above F01 to F04. Below is a traceability matrix cross referencing the user stories with the features, illustrating which features support which stories :
-
-
+- The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered U01-07. The existing features are listed above F01 to F04. Below is a traceability matrix cross referencing the user stories with the features, illustrating which features support which stories :
+![UX reference](documentation/feature-images/ux-reference.png)
 
 ## **Design**
 
@@ -106,9 +105,9 @@ Potential future features could be to have a random selection of questions coded
 ## Browser Compatibility
 
 - Testing has been carried out on the following browsers :
-Chrome Version 114.0.5735.198 (Official Build) (arm64)
-Firefox Version 113.0.2 (64-bit)
-Edge Version 114.0.1823.67 (Offical Build) (64-bit)
+- Chrome Version 114.0.5735.198 (Official Build) (arm64)
+- Firefox Version 113.0.2 (64-bit)
+- Edge Version 114.0.1823.67 (Offical Build) (64-bit)
 
 ### Test Cases and Results
 
