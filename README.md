@@ -150,11 +150,16 @@ The reason for the unused variable "questions" message is that that data.js file
 
 - The below table details the test cases that were used, the results and a cross reference to the feature that each test exercised
 
-
-
 ### Known Bugs
 
 - No known bugs
+
+### Accessibility
+- I can confirm that the colors and fonts chosen are easy to read and accessible by running it through the lighthouse in dev tools.
+
+![Metrics](documentation/testing/accessibility-metrics.png)
+
+![Accessibility](documentation/testing/accessibility.png)
 
 ## Deployment
 
