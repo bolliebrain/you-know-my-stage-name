@@ -86,8 +86,14 @@ U07. Navigate easily between game screens, including quitting and returning to t
 - Google Fonts were used to import the Yusei Magic Sans Serif fonts into styles.css. Yusei Magic was chosen as it had a current game feel and is highly readable which helps a game site using words.
 
 ### Wireframes
+- Desktop Wireframes
+![Desktop Wireframes](documentation/wireframes/wireframe-desktop.png)
 
+- Tablet Wireframes
+![Tablet Wireframes](documentation/wireframes/wireframe-tablet.png)
 
+- Smartphone Wireframes
+![Smartphone Wireframes](documentation/wireframes/wireframe-phone.png)
 
 ## **Technologies Used**
 
@@ -126,6 +132,8 @@ U07. Navigate easily between game screens, including quitting and returning to t
 ### Test Cases and Results
 
 ### Known Bugs
+
+- No known bugs
 
 ## Deployment
 
