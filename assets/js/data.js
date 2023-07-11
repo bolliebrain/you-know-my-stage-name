@@ -99,4 +99,4 @@ const questions = [
             { text: "Katheryn Hudson", correct: true}
         ]
     }
-]
+];

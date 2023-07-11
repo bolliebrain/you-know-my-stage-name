@@ -118,9 +118,21 @@ U07. Navigate easily between game screens, including quitting and returning to t
 
 - [HTML Validator](https://validator.w3.org)
 
+- result for index.html
+![HTML Validation](documentation/validation/html-validation-index.png)
+
+Full Validation results are available on github here: 
+- HTML Result
+![HTML doc](documentation/validation/html-validation-doc.pdf)
+
 - [CSS Validator](https://jigsaw.w3.org/css-validator)
+![CSS Validation](documentation/validation/css-validator-stylesheet.png)
+
+Full Validation results are available on github here:
+![CSS doc](documentation/validation/css-validation-doc.pdf)
 
 - [JavaScript Validator](https://jshint.com/)
+-
 
 ## Browser Compatibility
 
