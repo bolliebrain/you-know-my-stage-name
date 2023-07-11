@@ -16,7 +16,7 @@ const restart = document.getElementById("restart");
 //Result
 const result = document.getElementById("result");
 //Response
-const response = document.getElementById("response")
+const response = document.getElementById("response");
 
 //Variables for the question index and score
 let currentQuestion = 0;
@@ -24,15 +24,15 @@ let correctAnswers = 0;
 
 /* Two different event listeners
 Wait for DOM to finish loading before running the Quiz and
-when user clicks button */
+when adding listeners*/
 
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("game-page").style.display = "none";
     document.getElementById("final-page").style.display = "none";
     document.getElementById("start").addEventListener("click", startGame);
     document.getElementById("go-home").addEventListener("click", welcomePage);
-    document.getElementById("restart").addEventListener("click", welcomePage)
-})
+    document.getElementById("restart").addEventListener("click", welcomePage);
+});
 
 function welcomePage(){
     //Open to welcome page with rules and hiding others
@@ -104,7 +104,7 @@ function checkAnswer(check) {
         }
         button.disabled = true;
     });
-    setTimeout(nextQuestion, 2000)
+    setTimeout(nextQuestion, 2000);
 }
 
 // function to loop the next questions
@@ -116,7 +116,7 @@ function nextQuestion(){
         questionSets();
     }else{
        scoreReaction();
-    };
+    }
 }
 
 //function which provides the score
@@ -133,7 +133,7 @@ function scoreReaction(){
     } else if (correctAnswers <= 5) {
         response.innerHTML = ".... this game isnt for everyone!";
     }else {
-        if (correctAnswers > 6 && correctAnswers < 11) {
+        if (correctAnswers > 5 && correctAnswers < 11) {
         response.innerHTML = "Nice work!";
         }
     }
