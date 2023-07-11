@@ -136,8 +136,6 @@ Full Validation results are available on github here:
 - result for script.js
 ![JS Validationscript](documentation/validation/script-js-test.png)
 
-
-
 - result for data.js
 ![JS Validationdata](documentation/validation/data-js-test.png)
 
