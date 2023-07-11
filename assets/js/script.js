@@ -2,9 +2,9 @@
 
 //Variables
 //Start quiz button
-const begin = document.getElementById("start");
+//const begin = document.getElementById("start");
 // Go home button
-const goHome = document.getElementById("go-home");
+//const goHome = document.getElementById("go-home");
 //Questions/stage name
 const stageName = document.getElementById("stage-name");
 //Answers to choose from
@@ -14,7 +14,7 @@ const score = document.getElementById("score");
 //Progress
 const progress = document.getElementById("progress");
 //Restart
-const restart = document.getElementById("restart");
+//const restart = document.getElementById("restart");
 //Result
 const result = document.getElementById("result");
 //Response
@@ -44,7 +44,7 @@ function welcomePage(){
 }
 
 function startGame(){    
-    let gamePage = document.getElementById("game-page").style.display = "";
+    document.getElementById("game-page").style.display = "";
     document.getElementById("welcome-page").style.display = "none";
     document.getElementById("final-page").style.display = "none";
     //question progress and score starts at 0
@@ -125,7 +125,7 @@ function nextQuestion(){
 function scoreReaction(){
     clearPage();
     //Open to finalpage hiding others
-    let final = document.getElementById("final-page").style.display = "";
+    document.getElementById("final-page").style.display = "";
     document.getElementById("welcome-page").style.display = "none";
     document.getElementById("game-page").style.display = "none";
     result.innerHTML = `You got ${correctAnswers} right`;

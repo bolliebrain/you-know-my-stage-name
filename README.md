@@ -133,7 +133,15 @@ Full Validation results are available on github here:
 - The warnings are due to 1)import of the Google fonts
 
 - [JavaScript Validator](https://jshint.com/)
--
+- result for script.js
+![JS Validationscript](documentation/validation/script-js-test.png)
+
+
+
+- result for data.js
+![JS Validationdata](documentation/validation/data-js-test.png)
+
+The reason for the unused variable "questions" message is that that data.js file holds the game data in a separate file to the rest of the site code.
 
 ## Browser Compatibility
 
