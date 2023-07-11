@@ -189,13 +189,27 @@ The live link can be found here - [You know my stage name](https://bolliebrain.g
 ## Credits
 
 ### Content
+- The questions were sourced mainly from the below website:
+
+- [Elle](https://www.elle.com/culture/celebrities/news/g30012/celebrities-real-names/)
 
 ### Media
-- Wikimedia
+- The fonts were imported from [Google Fonts](https://fonts.google.com/)
+- The Home icon was taken from [Font Awesome](https://fontawesome.com/)
+- The favicon was created from [Favicon](https://favicon.io/emoji-favicons/eight-pointed-star/)
+- Various images for the questions sets were taken from [Wikimedia](https://commons.wikimedia.org/wiki/Main_Page), also to give credit to (as have received permission on the conditions giving credit):
+- [Adamant](https://www.flickr.com/photos/69880995@N04/49890070448/)
+- [Calvin Harris](https://flickr.com/photos/14247646@N00/7395505238)
+- [Sting](https://flickr.com/photos/69880995@N04/41713255002)
 
 ### Code
-- Youtube videos
+- The coding within the Question Sets and Check Answer were influenced by the following youtube video [Quiz App] (https://www.youtube.com/watch?v=PBcqGxrr9g8). This includes the game script.
+- [W3 Schools](https://www.w3schools.com/) was used to as a point of reference for adding inner HTML, fixing CSS and HTML code.
+- Simple layout and score Generator was inspired by Love Maths.
+- Delaying a javascript function - [Tutorialspoint](https://www.tutorialspoint.com/How-to-delay-a-JavaScript-function-call-using-JavaScript)
 
 ### Acknowledgements
+
+- Thank you to my mentor Elaine Broche for her ongoing help and feedback. For also providing tips on the keeping the code tidy and providing guidance on functions.
 
 
