@@ -4,8 +4,6 @@ Here is the link to [You know my stage name Quiz](https://https://bolliebrain.gi
 
 You know my stage name is an online Quiz. The user is asked to guess which answer is correct from a choice of three answers. There are 11 Questions to go through. Once the user selects an answer by clicking the relevant button, the game gives the feedback as to whether it was correct or not (green if correct and red if incorrect) and it also displays the correct answer. There is a progress status underneath the answers as well how they are doing in terms of questions answered correct. At the end of the quiz the user is brought to an end of quiz screen to see their score and feedback. From this point they can choose to start the game again. 
 
-Potential future features could be to have a random selection of questions coded in the background based on a level of difficulty at the users choice.
-
 ![Mockup](documentation/feature-images/01-mockup.png)
 
 ## **Index - Table of Contents**
@@ -73,7 +71,23 @@ U07. Navigate easily between game screens, including quitting and returning to t
 - The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered U01-07. The existing features are listed above F01 to F04. Below is a traceability matrix cross referencing the user stories with the features, illustrating which features support which stories :
 ![UX reference](documentation/feature-images/ux-reference.png)
 
+### Features which could be implemented in the future
+
+- Potential future features could be:
+- Random selection of questions coded in the background based on a level of difficulty at the users choice.
+
 ## **Design**
+
+### Colour Scheme
+- The colour scheme across the screens was kept simple and consistent so that it wouldnt be distracting and was inspired by colours used on quiz sites that appear to indicate playfulness and simple in look.
+
+### Typography
+
+- Google Fonts were used to import the Yusei Magic Sans Serif fonts into styles.css. Yusei Magic was chosen as it had a current game feel and is highly readable which helps a game site using words.
+
+### Wireframes
+
+
 
 ## **Technologies Used**
 
