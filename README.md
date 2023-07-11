@@ -18,13 +18,13 @@ You know my stage name is an online Quiz. The user is asked to guess which answe
 ## **User Experience (UX)**
 
 - ### User Stories - as a user I want to be able to :
-U01. Easily determine the purpose of the website.
-U02. Play a round of 11 questions.
-U03. Easily tell which question is being asked.
-U04. See a running total of correct answers.
-U05. Get feedback on whether or not the correct answer has been entered.
-U06. At the end of the quiz, get feedback on overall score for the quiz.
-U07. Navigate easily between game screens, including quitting and returning to the start.
+- U01. Easily determine the purpose of the website.
+- U02. Play a round of 11 questions.
+- U03. Easily tell which question is being asked.
+- U04. See a running total of correct answers.
+- U05. Get feedback on whether or not the correct answer has been entered.
+- U06. At the end of the quiz, get feedback on overall score for the quiz.
+- U07. Navigate easily between game screens, including quitting and returning to the start.
 
 ## **Features**
 
@@ -149,6 +149,8 @@ The reason for the unused variable "questions" message is that that data.js file
 ### Test Cases and Results
 
 - The below table details the test cases that were used, the results and a cross reference to the feature that each test exercised
+
+![Test cases](documentation/testing/testcases.png)
 
 ### Known Bugs
 
